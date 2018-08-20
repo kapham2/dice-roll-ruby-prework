@@ -5,5 +5,4 @@ require 'pry'
 def roll
   #1 + rand(6)
   (1..6).to_a[rand(6)]
-  binding.pry
 end
